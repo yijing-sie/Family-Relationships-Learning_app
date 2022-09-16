@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="@dimen/activity_vertical_margin"
+    android:paddingHorizontal="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/tree"
+        android:alpha="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tree"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <TextView
+            android:id="@+id/learn"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/menu_border"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:text="@string/learn"
+            android:gravity="center"
+            android:textColor="@color/menuWord"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif"
+            android:onClick="learn"/>
+
+        <TextView
+            android:layout_below="@id/learn"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/menu_border"
+            android:onClick="test"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:textColor="@color/menuWord"
+            android:text="@string/test"
+            android:gravity="center"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

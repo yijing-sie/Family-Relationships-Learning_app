@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonHenry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="Henry"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="@dimen/line_thickness"
+            android:layout_height="74dp"
+            android:layout_below="@+id/buttonHenry"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-3dp"
+            android:background="@color/colorPrimary" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="40dp"
+            android:layout_height="@dimen/line_thickness"
+            android:layout_below="@+id/view1"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonJames"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+            android:layout_marginTop="100dp"
+            android:text="James"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="16dp"
+            android:layout_height="@dimen/line_thickness"
+            android:layout_alignTop="@id/view2"
+            android:layout_marginLeft="-3dp"
+            android:layout_toRightOf="@id/buttonJames"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonSusan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/buttonJames"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/buttonJames"
+            android:text="Susan"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="16dp"
+            android:layout_height="@dimen/line_thickness"
+            android:layout_alignTop="@id/view2"
+            android:layout_marginRight="-4dp"
+            android:layout_toLeftOf="@id/buttonSarah"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonAndrew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/buttonJames"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@id/buttonSarah"
+            android:text="Andrew"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/buttonSarah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/buttonJames"
+            android:layout_alignParentRight="true"
+            android:text="Sarah"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonOliver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="200dp"
+            android:text="Oliver"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="@dimen/line_thickness"
+            android:layout_height="100dp"
+            android:layout_below="@id/view3"
+            android:layout_marginLeft="92.5dp"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonEmma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/buttonOliver"
+            android:layout_alignRight="@+id/buttonSusan"
+            android:text="Emma"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="16dp"
+            android:layout_height="@dimen/line_thickness"
+            android:layout_below="@id/view5"
+            android:layout_alignLeft="@id/view3"
+            android:background="@color/colorPrimary" />
+
+        <Button
+            android:id="@+id/buttonMichael"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/buttonOliver"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:text="Michael"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="@dimen/line_thickness"
+            android:layout_height="100dp"
+            android:layout_below="@id/view4"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="91dp"
+            android:background="@color/colorPrimary" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonBack8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="Back"
+                android:onClick="back8"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonNext8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Next"
+                android:onClick="next8"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/q8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonMichael"
+            android:layout_marginTop="50dp"
+            android:text="@string/q8"
+            android:textSize="@dimen/question_textsize" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/radio_group_8"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/q8">
+
+            <RadioButton
+                android:id="@+id/radio_q8_r1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/father"
+                android:textSize="@dimen/question_textsize" />
+
+            <RadioButton
+                android:id="@+id/radio_q8_r2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sister"
+                android:textSize="@dimen/question_textsize" />
+
+            <RadioButton
+                android:id="@+id/radio_q8_r3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grandfather"
+                android:textSize="@dimen/question_textsize" />
+
+            <RadioButton
+                android:id="@+id/radio_q8_r4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/grandson"
+                android:textSize="@dimen/question_textsize" />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</LinearLayout>

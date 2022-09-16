@@ -1,0 +1,90 @@
+<resources>
+
+    <string name="app_name">Education Learn Tree</string>
+    <string name="welcome_message">Welcome to the Family Relationships  Learning App!</string>
+    <string name="clicking_message">Click anywhere to continue</string>
+    <string name="learn">Learn</string>
+    <string name="test">Test</string>
+    <string name="finish">Finish</string>
+    <string name="q1">1.What is Henry to Oliver?</string>
+    <string name="q2">2.What is Oliver to Emma?</string>
+    <string name="q3">3.What is Henry to Sarah?</string>
+    <string name="q4">4.What is James to Sarah?</string>
+    <string name="q5">5.What is Michael to Emma?</string>
+    <string name="q6">6.What is James to Michael?</string>
+    <string name="q7">7.What is Sarah to Emma?</string>
+    <string name="q8">8.What is Michael to Henry?</string>
+    <string name="q9">9.What is Emma to Andrew?</string>
+    <string name="q10">10.What is Oliver to Andrew?</string>
+    <string name="father">Father</string>
+    <string name="mother">Mother</string>
+    <string name="sister">Sister</string>
+    <string name="son">Son</string>
+    <string name="grandfather">Grandfather</string>
+    <string name="grandmother">Grandmother</string>
+    <string name="grandson">Grandson</string>
+    <string name="in_law">In-law</string>
+    <string name="daughter">Daughter</string>
+    <string name="cousin">Cousin</string>
+    <string name="brother">Brother</string>
+    <string name="uncle">Uncle</string>
+    <string name="aunt">Aunt</string>
+    <string name="nephew">Nephew</string>
+    <string name="niece">Niece</string>
+    <string name="Henry">Henry</string>
+    <string name="James">James</string>
+    <string name="Susan">Susan</string>
+    <string name="Andrew">Andrew</string>
+    <string name="Sarah">Sarah</string>
+    <string name="Oliver">Oliver</string>
+    <string name="Emma">Emma</string>
+    <string name="Michel">Michel</string>
+    <string name="Overview">Learn the tree &amp; Test yourself</string>
+    <string name="Howtolearn">“Click on a name to learn more about their relations”</string>
+
+    <string name="andrewDialog"> Andrew is the <b>father</b> to: Michael\n
+        Andrew is the <b>in-law</b> to: James\n
+        Andrew is the <b>brother</b> to: Susan\n
+        Andrew is the <b>son</b> to: Henry\n
+        Andrew is the <b>uncle</b> to: Oliver, Emma\n
+        Andrew is the <b>husband</b> of: Sarah</string>
+
+    <string name="emmaDialog"> Emma is the <b>sister</b> to: Oliver\n
+        Emma is the <b>daughter</b> to: James, Susan\n
+        Emma is the <b>granddaughter</b> to: Henry\n
+        Emma is the <b>cousin</b> to: Michael\n
+        Emma is the <b>niece</b> to: Sarah, Andrew</string>
+
+    <string name="henryDialog"> Henry is the <b>father</b> to: Susan, Andrew\n
+        Henry is the <b>in-law</b> to: James, Sarah\n
+        Henry is the <b>grandfather</b> to: Oliver, Michael, Emma</string>
+
+    <string name="jamesDialog"> James is the <b>father</b> to: Oliver, Emma\n
+        James is the <b>in-law</b> to: Sarah, Andrew, Henry\n
+        James is the <b>Uncle</b> to: Michael\n
+        James is the <b>husband</b> of: Susan</string>
+
+    <string name="michaelDialog"> Michael is the <b>son</b> to: Andrew, Sarah\n
+        Michael is the <b>grandson</b> to: Henry\n
+        Michael is the <b>cousin</b> to: Oliver, Emma\n
+        Michael is the <b>nephew</b> to: James, Susan</string>
+
+    <string name="oliverDialog"> Oliver is the <b>brother</b> to: Emma\n
+        Oliver is the <b>son</b> to: James, Susan\n
+        Oliver is the <b>grandson</b> to: Henry\n
+        Oliver is the <b>cousin</b> to: Michael\n
+        Oliver is the <b>nephew</b> to: Sarah, Andrew</string>
+
+    <string name="sarahDialog"> Sarah is the <b>mother</b> to: Michael\n
+        Sarah is the <b>in-law</b> to: James, Henry, Susan\n
+        Sarah is the <b>aunt</b> to: Oliver, Emma\n
+        Sarah is the <b>wife</b> of: Andrew</string>
+
+    <string name="susanDialog"> Susan is the <b>mother</b> to: Oliver, Emma\n
+        Susan is the <b>in-law</b> to: Sarah\n
+        Susan is the <b>sister</b> to: Andrew\n
+        Susan is the <b>daughter</b> to: Henry\n
+        Susan is the <b>aunt</b> to: Michael\n
+        Susan is the <b>wife</b> of: James</string>
+
+</resources>

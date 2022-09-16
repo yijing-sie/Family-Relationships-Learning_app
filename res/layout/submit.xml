@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingVertical="@dimen/activity_vertical_margin"
+    android:paddingHorizontal="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="@drawable/submit_border"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        android:textColor="@color/menuWord"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif" />
+
+    <TextView
+        android:id="@+id/wrong"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/result"
+        android:layout_alignStart="@id/result"
+        android:layout_alignLeft="@id/result"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp"
+        android:textColor="@color/menuWord"
+        android:textSize="15sp"
+        app:fontFamily="sans-serif" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/learnAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submit_border"
+            android:layout_toLeftOf="@id/testAgain"
+            android:layout_marginRight="20dp"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:text="Learn Again"
+            android:textColor="@color/menuWord"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif"
+            android:onClick="learn"/>
+
+        <TextView
+            android:id="@+id/testAgain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/submit_border"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="10dp"
+            android:text="Test Again"
+            android:gravity="center"
+            android:textColor="@color/menuWord"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="sans-serif"
+            android:onClick="test"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
