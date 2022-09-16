@@ -16,7 +16,7 @@ This is a group project for Software Design for Visual Environments
 
 
 
-## Details and Demonstartion
+## Details and Demonstration
 
 * When the users are inside the `Learn` page, they can click on any buttons constituting the visualized family tree to learn more about the family relationships associated with that button. For example:
 
